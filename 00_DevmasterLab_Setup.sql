@@ -1,10 +1,3 @@
-/* =====================================================================
-   Devmaster Academy – Học phần Hệ quản trị CSDL SQL Server (SQL Server 2022)
-   00_DevmasterLab_Setup.sql – Tạo CSDL mẫu DevmasterLab dùng chung cho 5 buổi
-   Chạy lại nhiều lần không lỗi (xóa và tạo lại CSDL). Yêu cầu SQL Server 2022+.
-   Bảng: Categories · Courses · Students · Enrollments · Payments
-   Quy ước: Enrollments.PaidAmount = tổng Payments.Amount của lượt ghi danh
-   ===================================================================== */
 USE master;
 GO
 IF DB_ID(N'DevmasterLab') IS NOT NULL
